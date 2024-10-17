@@ -70,5 +70,5 @@ app.get('/api/products/:id', (req, res) => {
 });//ใช้งานปกติ เทสแล้วผ่าน /api/products/6 ใช้ได้อิอิ
 
 app.listen(port, function () {
-    console.log('Listening on port', port);
+    console.log('Listening on port', "http://localhost:"+port);
 });
